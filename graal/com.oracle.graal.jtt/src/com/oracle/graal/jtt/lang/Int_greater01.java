@@ -67,9 +67,15 @@ public final class Int_greater01 extends JTTTest {
         runTest("test", 2);
     }
 
+
     @Test
     public void run6() throws Throwable {
         runTest("test", 2147483647);
+    }
+
+    @Test
+    public void run7() throws Throwable {
+        runTest("test", -666);
     }
 
 }
